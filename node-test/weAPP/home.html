@@ -41,9 +41,6 @@
       height: 60px;
       width: 60px;
       border-radius: 50%;
-      /* background: url('./images/touxiang.png') no-repeat center;
-      background-size: 100%  100%;
-      border-radius: 50%; */
     }
     .head .down{ height: 206px; background: url('./images/qianbao1.png') no-repeat center; background-size: 100% 100%; }
     .head .down .row_1{ height: 45px; line-height: 45px; }
@@ -140,8 +137,8 @@
         <div class="row row_1">
            <div class="coin col-xs-6 col-sm-6 col-md-6 coin1">
             <!-- // onclick="showUserMsg()" -->
-            <img src="./images/yuetubiao.png">
-              账户余额
+            <img src="./images/yuetubiao.png" onclick="goback()">
+              <span onclick="exitBtn()">账户余额</span>
            </div>
            <div class="coin col-xs-6 col-sm-6 col-md-6 coin2">
             <a href="user.html">
@@ -150,7 +147,7 @@
            </div>
         </div>
         <div class="tcb">
-          <div>0 TCB</div>
+          <div class="money" onclick="downShow();">0 TCB</div>
         </div>
       </div>
     </div>
@@ -170,7 +167,7 @@
                <img src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/xing.svg">
              </div>
              <div class="txt1">XWG</div>
-             <div class="txt2">0</div>
+             <div class="txt2" onclick="pay('111')">0</div>
            </div>
            <div class="otems">
              <div class="pic">
@@ -307,9 +304,18 @@
     <div class="hbbj"></div>
   </div>
   <!--浮动层结束-->
+  <!-- <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+    <div class="modal-dialog modal-sm" role="document">
+      <div class="modal-content">
+        <div>
+          <div>555555555</div>
+          <div>66666666666</div>
+          <div>777777777</div>
+        </div>
+      </div>
+    </div>
+  </div> -->
 <script>
-  // $.closePopup();
-  // $('half').popup();
   $(document).on("click", "#show-custom", function() {
     var oDiv = '<div class="payPan">'+
       '<div class="paybox">'+
@@ -350,7 +356,11 @@
     }
 
   }
-
+  // 手动触发覆盖式的底部弹出层
+  downShow();
+  function downShow() {
+   $('#half').popup();
+ }
 
 
   </script>

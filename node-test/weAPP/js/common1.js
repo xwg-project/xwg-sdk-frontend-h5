@@ -280,17 +280,17 @@ function logout(){
 // 支付:
 
 dsBridge.register("pay", eval("pay"));
-// pay("");
+
 function pay(orderId){
-  var data = {
-    oid: orderId,
-    url : "home.html",
-    date: getTime()
-  }
-  var saves = JSON.stringify(data);
-  window.localStorage.setItem("page",saves);
+  JudgeLogin(true);
+  downShow();
+  // $('#half').popup();
 }
 
+// var oneBtn = pay(true);
+// $(oneBtn).click(function(event) {
+//   $('#half').popup();
+// });
 // 手动触发覆盖式的底部弹出层
 function downShow() {
  $('#half').popup();
