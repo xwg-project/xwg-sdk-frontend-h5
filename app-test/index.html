@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>网页唤起app</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!--[if lt IE 9]>
+    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+  <![endif]-->
+  <style>
+    *{padding: 0;margin: 0}
+    a{ text-decoration: none; color: #fff; }
+    body{position: relative;}
+    iframe{border: none;}
+    /* 点击对象 */
+    #box{
+      height: 64px;
+      width: 64px;
+      position: absolute;
+      top: 20px;
+      left: 50%;
+      z-index: 6;
+      background: url('./images/avat3.png') no-repeat center center;
+    }
+    #btn{text-align: center; }
+    #btn .a1{ color: #fff; display: block; height: 64px; line-height: 64px; }
+    .myDiv{
+      /* background: blue; */
+      background-color: #fff;
+      position: fixed;
+      right: 0px;
+      top: 0px;
+      width: 375px;
+      max-width: 414px;
+      max-height: 667px;
+      overflow: hidden;
+      z-index: 5;
+      opacity: 0;
+
+      /* border: 1px solid red; */
+    }
+    #myDiv #myFrame{
+      width: 375px;
+      height: 667px;
+    }
+    .box2{position: absolute; width: 100%; height: 750px; background: #09c;}
+    .box2 .itens {
+      margin: 80px auto;
+      width: 600px;
+    }
+    .box2 .itens .iten{line-height: 50px; color: #fff; text-align: center;}
+
+    /* webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    -webkit-animation: pc_window 0.3s linear;
+    animation: pc_window 0.3s linear; */
+  </style>
+</head>
+<body>
+  <div id="box">
+    <div id="btn">
+      <a class="a1" href="###">&nbsp;</a>
+      <!-- <a href="####" onclick = "openDialog()">&nbsp;</a> -->
+      <!-- <a href="####" data-toggle="modal" data-target=".bs-modal-sm">&nbsp;</a> -->
+    </div>
+  </div>
+  <div class="box2">
+    <div class="itens">
+      <div class="iten">《新樱花大战》世界观介绍 华击团、机械装备与地点场景介绍</div>
+      <div class="iten">《剑网3》双十二盛典倒计时 穆玄英莫雨GSC粘土人今日开售</div>
+      <div class="iten">《辐射76》现再装填BUG 换子弹会使玩家数值下降</div>
+      <div class="iten">《古剑奇谭网络版》冰雪主题月将至 超多惊喜等你来拿</div>
+      <div class="iten">《生化危机3：重制版》新爆料 卡普空没兴趣重制4/5/6</div>
+      <div class="iten">《塔罗斯的法则》已正式登陆NS平台 曾在Steam好评如潮</div>
+      <div class="iten">《暗黑血统：创世纪》评测8.3分 最后的骑士登场</div>
+   </div>
+  </div>
+  <!-- ++++++++++++方法一：直接显示界面+++++++++++++ -->
+ <!--  style="display: none;" -->
+  <div id="myDiv"  class="myDiv animated">
+    <object id="myFrame" data="http://127.0.0.1:3000/index.html" type="text/html">
+      <embed
+        src="http://127.0.0.1:3000/index.html"
+      ></embed>
+    </object>
+  </div>
+
+  <!-- ++++++++++++方法二：模态框显示界面+++++++++++++ -->
+  <!-- <div class="modal fade bs-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+    <div class="modal-dialog modal-sm" role="document">
+      <div class="modal-content">
+        <div id="myDiv">
+          <object id="myFrame" data="http://127.0.0.1:3000/index.html" type="text/html">
+            <embed src="http://127.0.0.1:3000/index.html"></embed>
+          </object>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <!-- src="http://18.140.196.73/wallet/index.html#/pages/login/login" -->
+  <!-- src="https://m.baidu.com" -->
+    <script>
+      $(document).ready(function() {
+        $("#btn .a1").click(function(event){
+            event.stopPropagation();
+            if ($(".myDiv").hasClass("fadeInRight")){
+              $(".myDiv").toggleClass("fadeInRight").toggleClass("fadeOutRight")
+              // $("#box").css("display","none")
+            }
+            else if ($(".myDiv").hasClass("fadeOutRight")) {
+              $(".myDiv").toggleClass("fadeOutRight").toggleClass("fadeInRight")
+              // $("#box").css("display","block")
+            }
+            else{
+              $(".myDiv").toggleClass("fadeInRight")
+              // $("#box").css("display","none")
+            }
+          // if($("#myDiv").css("display")=="none"){
+          //   $("#myDiv").css("display", "block")
+          //   // $("#myDiv").addClass('fadeInRight')
+          // } else {
+          //   $("#myDiv").css("display", "none")
+          // }
+        })
+      })
+      document.onclick = function (e) {
+        e.stopPropagation();
+        // 判断点击的地方是否为按钮和弹出层及是否显示
+        // if(!$(e.target).is("#btn .a1") && $(".myDiv").is(":visible")==true){
+        if(!$(e.target).is("#btn .a1")){
+          $(".myDiv").toggleClass("fadeOutRight")
+        }
+      }
+    </script>
+  <script>
+    function move(){
+      // 获取元素和初始值
+      var oBox = document.getElementById('box'),disX = 0, disY = 0;
+      // 获取浏览器可见区域宽高，div宽高
+      var browserWidth = document.documentElement.clientWidth,
+          browserHeight = document.documentElement.clientHeight,
+          boxWidth = document.getElementById('box').offsetHeight,
+          boxHeight = document.getElementById('box').offsetWidth;
+      // 容器鼠标按下事件
+      oBox.onmousedown = function (e){
+          var e = e || window.event;
+          // 鼠标相对于div左侧位置
+          disX = e.clientX - this.offsetLeft;
+          disY = e.clientY - this.offsetTop;
+          document.onmousemove = function (e){
+              var e = e || window.event;
+              oBox.style.left = (e.clientX - disX) + 'px';
+              if((e.clientX - disX)<=0){
+                    oBox.style.left = 0;
+        }else if((boxWidth - disX + e.clientX) >= browserWidth){
+          oBox.style.left = browserWidth - boxWidth + "px";
+        }
+        oBox.style.top = (e.clientY - disY) + 'px';
+                if((e.clientY - disY) <= 0){
+                    oBox.style.top = 0;
+                }else if((boxHeight - disY + e.clientY) >= browserHeight){
+          oBox.style.top = browserHeight - boxHeight + "px";
+        }
+          };
+
+          document.onmouseup = function (){
+              document.onmousemove = null;
+              document.onmouseup = null;
+          };
+          return false;
+      };
+  }
+  move();
+  </script>
+</body>
+</html>
