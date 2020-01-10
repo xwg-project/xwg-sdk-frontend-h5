@@ -35,6 +35,8 @@
             var data = "";
             $(".mm_box li").each(function(){
               data += $(this).attr("data");
+              PayOrder(data);
+               var inputkey = data;
             });
             alert("支付成功"+data);
           },100);

@@ -10,6 +10,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <script src="js/jquery-1.12.4.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/base/event/eventdispatcher.js"></script>
+    <script src="js/base/bridge/bridge.js"></script>
     <!-- http://192.168.1.115:3000/index.html -->
     <style>
       .parent{ background:#000 ; }
@@ -65,17 +67,9 @@
     </div>
   </div>
   <script>
-    // console.log("定时器线程开始计时: "+ new Date());
-    // setTimeout(function(){
-    //   console.log("开始执行定时器回调: "+ new Date());
-    // },5000);
-    var userToc1 = window.localStorage.getItem("page");
-    window.localStorage.removeItem("page");
-    var IsToken = JSON.parse(userToc1);
-    console.log(IsToken);
-    window.location.href = IsToken.url;
 
   </script>
- <!--  <script src="js/common.js"></script> -->
+  <script src="js/common.js"></script>
+  <script src="js/pages/index/index.js"></script> 
 </body>
 </html>
