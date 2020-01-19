@@ -1,0 +1,98 @@
+.bgImg{
+  position: absolute;
+  background: url('./../images/bj.jpg') no-repeat center center;
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+}
+.row1{
+  position: relative;
+  width: 100%;
+  height: 32.9%;
+  /* line-height: 220px; */
+  background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  margin: 0 auto;
+}
+.row1_1{
+  width: 127px;
+  height: 57px;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.row1_1 img{width: 127px; height: 57px;}
+.row2{
+  position: relative;
+  height: 38.5%;
+  margin: 8px auto;
+  margin-top: 0px;
+}
+.row2 .row2_box{
+  width: 100%;
+  height: 250px;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; 
+}
+.row2 .container{padding-right: 11.2%; padding-left: 11.2%;}
+.row2 .form-group{
+  border-bottom: 1px solid #fff;
+  margin-bottom: 22px;
+}
+.addon1{padding: 6px 0;}
+.addon2{padding: 6px 0;}
+.addon3{padding: 0px;}
+.addon3 .btn1{
+  padding: 5px 0px;
+  color: #3dd4ff;
+  background: transparent;
+  border-style:none;
+  outline: none;
+}
+.row2 .form-group .input-group .cont1{ padding: 6px 20px; }
+.row2 .form-group .input-group,
+.row2 .form-group .input-group .form-control{
+  vertical-align: top;
+  height: 45px;
+  color: #fff;
+}
+.row2 .form-group .input-group-addon,
+.row2 .form-group .input-group .form-control{
+  border-style: none;
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+}
+.row2 .form-group .input-group-addon .icon1{width: 20px; height: 25px;}
+.row2 .form-group .input-group-addon .shanchu{width: 20px; height: 20px;}
+.loginBtn{margin: 38px 0 28px;}
+.loginBtn .btn{
+  width: 100%;
+  background:#0178ff;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  padding: 0;
+  color: #fff;
+  border-style: none;
+  outline: none;
+  font-size: 15px;
+}
+.passLink{ margin-top: 0; }
+.passLink .item{text-align: center;}
+.passLink .item .a1{color:#fff;}
+@media screen and (max-width: 320px) {
+  .passLink .row .end{ padding: 0; }
+}

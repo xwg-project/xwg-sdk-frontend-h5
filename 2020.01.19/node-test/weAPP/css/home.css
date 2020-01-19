@@ -1,0 +1,311 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.bgPic{
+  position: absolute;
+  background: url('./../images/bj2.jpg') no-repeat center center;
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+}
+.header{position: relative; height: 6.7%;}
+.header .container{padding: 0 3.3%; height: 100%; position: relative; }
+.header .row_top{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  height: 28px;
+  color: #fff;
+  font-size: 16px;
+}
+.header .row_top .tip{ text-align: center; font-weight: 700; height: 28px; line-height: 28px; }
+.header .row_top .links{ color: #fff; text-decoration: none; }
+.header .row_top .ico1{ width: 25px; height: 23px; }
+.header .row_top .ico2{ width: 30px; height: 28px; }
+.header .row_top .div3{ text-align: right; }
+
+.wrapbox{position: relative; height: 18.9%;}
+.wrapbox .container{ position: relative; padding: 0 3.3%; height: 100%;}
+.wrapbox .wrapbox_1{ position: relative; color: #fff; height: 40%;}
+.wrapbox .wrapbox_1 .div1{
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   margin: auto;
+   height: 34px;
+}
+.wrapbox .wrapbox_1 .info{
+  margin-left: 20px;
+  background: #269abc;
+  color: #fff;
+  text-decoration: none;
+  width: 54px;
+  height: 34px;
+  line-height: 34px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 5px;
+}
+.wrapbox .wrapbox_2{
+  color: #fff;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 60%;
+  line-height: 50px;
+  border-bottom: 1px solid #fff;
+}
+.wrapbox .wrapbox_2 .div2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  height: 50px;
+}
+.wrapbox .wrapbox_2 .child1{ float: left; width: 80%; }
+.wrapbox .wrapbox_2 .child1 span{ font-size: 24px; margin-right: 10px;}
+.wrapbox .wrapbox_2 .child2{  float: right; width: 20%;text-align: right;}
+.wrapbox .wrapbox_2 .child2 img{ height: 50px; width: 50px; border-radius: 50%; }
+.foot{
+  height: 73.4%;
+  /* border: 1px solid red; */
+ }
+.foot .container{
+  position: relative;
+  padding: 0 3.3%;
+  height: 100%;
+}
+.foot .navbox{
+  position: relative;
+  width: 230px;
+  height: 15%;
+  margin: 0 auto;
+  border-bottom: none;
+}
+.foot .navbox .nav-tabs{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  height: 42px;
+  border-bottom: 0;
+}
+.foot .nav-tabs .lis{ width: 50%;}
+.foot .nav-tabs .lis a{color: #929fb9; border:1px solid #929fb9; }
+.foot .nav-tabs .li1 a{
+  border-right-style: none;
+  border-top-left-radius:15px;
+  border-bottom-left-radius:15px;
+  background: url('./../images/pic3.png') no-repeat 10px center;
+}
+.foot .nav-tabs .li2 a{
+  border-top-right-radius:15px;
+  border-bottom-right-radius:15px;
+  border-left-style: none;
+  background: url('./../images/pic1.png') no-repeat  10px center;
+}
+.foot .nav-tabs li a{
+  text-align: center;
+  padding: 10px 10px 10px 35px;
+  border-style: none;
+  border-radius: 0;
+  margin-right: 0;
+}
+.foot .nav-tabs>li.active>.a1,
+.foot .nav-tabs>li.active>.a1:focus,
+.foot .nav-tabs>li.active>.a1:hover{
+  outline: none;
+  background: #0178ff url('./../images/pic4.png') no-repeat 10px center;
+  color: #fff;
+}
+.foot .nav-tabs>li.active>.a2,
+.foot .nav-tabs>li.active>.a2:focus,
+.foot .nav-tabs>li.active>.a2:hover{
+  outline: none;
+  background: #0178ff url('./../images/pic2.png') no-repeat  10px center;
+  color: #fff;
+}
+.foot .tab-content{
+  position: relative;
+  /* height: 360px; */
+  height: 85%;
+  background: #1a202e;
+}
+.foot .tab-content .otems{
+  height: 60px;
+  line-height: 60px;
+  font-size: 16px;
+  border-bottom: 1px solid #323848;
+}
+.foot .tab-content .otems .pic img{ width: 30px; height: 30px; }
+.foot .tab-content .otems .pic,
+.foot .tab-content .otems .txt1{
+  float: left;
+}
+.foot .tab-content .otems .pic{ margin-left: 24px; }
+.foot .tab-content #home .otems .txt1{
+  color: #747b8c;
+  margin-left: 20px;
+}
+.foot .tab-content #profile .otems .txt1{
+  color: #747b8c;
+  margin: 10px 0 10px 20px;
+  line-height: 0;
+}
+.foot .tab-content .otems .txt1 .txt1_1,
+.foot .tab-content .otems .txt1 .txt1_2{height: 20px; line-height: 20px;}
+.foot .tab-content .otems .txt1 .txt1_2 .span1,
+.foot .tab-content .otems .txt1 .txt1_2 .span2{ margin-right: 10px;}
+.foot .tab-content .otems .txt2{ float: right; margin-right: 12px; color: #fff; }
+.foot .tab-content>.active {
+  display: block;
+  width: 100%;
+}
+.foot .noData{ text-align: center; margin: 15px auto; color: #fff;}
+.paybox img{ width: 86px; height: 86px; }
+.weui-dialog__hd .weui-dialog__title{ display: none; }
+.paybox div{ margin-bottom: 15px; }
+#half .modal-content{ border-style: none; }
+#half .toolbar .picker-button{left: 0; text-decoration: none;}
+#half .toolbar .toolbar-inner .guanbi{
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  height: 34px;
+}
+#half #show-custom{background: #0178ff; outline: none;}
+#half #show-custom:hover{text-decoration: none; color: #fff;}
+#half .cellWrap .cell1{text-align: center;}
+#half .cellWrap .cell1 .p1 { text-align: center; font-size: 30px; margin-bottom: 0; }
+.payPan .weui-dialog__ft .a1:hover { text-decoration: none; color: #3cc51f; }
+.payPan .weui-dialog__ft .a2 { text-decoration: none; color: #5f646e; }
+#show-actions .open-popup{width: 60px; height: 60px; display: block;}
+.up .oText{overflow: hidden; white-space: nowrap; text-overflow: ellipsis; min-width: 210px;}
+.weui-dialog.weui-dialog--visible{background: #363d4b;}
+.weui-dialog.weui-dialog--visible .weui-dialog__bd{padding: 0;}
+.weui-dialog.weui-dialog--visible .weui-dialog__bd .paybox .title{ color: #fff; font-size: 20px;}
+.weui-dialog.weui-dialog--visible .weui-dialog__bd .paybox .content{
+  text-align: left;
+  padding: 0 20px;
+  margin: 20px 0;
+  color: #a3adc0;
+  font-size: 16px;
+  line-height: 30px;
+}
+.weui-dialog.weui-dialog--visible .weui-dialog__ft{line-height: 64px;}
+.weui-dialog.weui-dialog--visible .weui-dialog__ft .a1{color: #a3adc0; background: none; outline: none;}
+.weui-dialog.weui-dialog--visible .weui-dialog__ft .a2{color: #00cb6e; background: none; outline: none;}
+
+.foot .tab-content #home{
+  /* height: 360px; */
+  height: 100%;
+  padding: 0;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  bottom: 40px;
+  overflow: hidden;
+  z-index: 1;
+  /* border: 1px solid red; */
+
+  /* 防止本机Windows上的触摸事件 */
+  -ms-touch-action: none;
+
+  /* 防止callout tap-hold和文本的选择 */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  /* 防止文本调整取向变化对web应用程序很有用 */
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  -o-text-size-adjust: none;
+  text-size-adjust: none;
+}
+.foot .tab-content #profile{
+ /*  height: 360px; */
+  height: 100%;
+  padding: 0;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  bottom: 40px;
+  overflow: hidden;
+  z-index: 1;
+  /* border: 1px solid red; */
+  /* background-color: #eee; */
+
+  /* 防止本机Windows上的触摸事件 */
+  -ms-touch-action: none;
+
+  /* 防止callout tap-hold和文本的选择 */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  /* 防止文本调整取向变化对web应用程序很有用 */
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  -o-text-size-adjust: none;
+  text-size-adjust: none;
+}
+.pull-loading {
+  text-align: center;
+  height: 60px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.scroller{
+}
+.footer {
+  height: 1%;
+  width: 100%;
+  padding: 0 15px;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  line-height: 40px;
+  position: relative;
+  /* background: #09c; */
+
+}
+.footer .div1{background: transparent;}
+@media screen and (max-height: 625px){
+  .foot .tab-content{height: 300px;}
+  .foot .tab-content #home{ height: 300px; }
+  .foot .tab-content #profile{ height: 300px; }
+  .foot .tab-content .otems {
+    height: 50px;
+    line-height: 50px;
+  }
+  .foot .tab-content #profile .otems .txt1{margin: 5px 0 5px 20px;}
+}
+@media screen and (min-height: 320px) and (max-height: 560px){
+}

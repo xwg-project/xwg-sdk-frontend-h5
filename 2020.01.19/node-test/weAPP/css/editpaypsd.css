@@ -1,0 +1,102 @@
+.bgPic{
+  position: absolute;
+  background: #1a202e;
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+}
+.header{position: relative; background: #121622; height: 6.7%;}
+.header .container{padding: 0 3.3%; height: 100%; position: relative; }
+.header .row_top{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  height: 28px;
+  color: #fff;
+  font-size: 16px;
+}
+.header .row_top .ico1{ width: 30px; height: 28px; }
+.header .row_top .tip{ text-align: center; font-weight: 700; height: 28px; line-height: 28px; }
+.header .row_top .links{ color: #fff; text-decoration: none; }
+.row2{
+  position: relative;
+  height: 36%;
+  margin-top: 0px;
+}
+/* .row2 .container{padding-right: 25px; padding-left: 25px;} */
+.header .container{ padding: 0 3.3%; }
+.row2 .wrap{ height: 25%; position: relative;}
+.row2 .form-group{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0 3.3%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 0;
+  border-bottom: 1px solid #323848;
+}
+.row2 .form-group .input-group .cont1{ padding: 6px 20px; }
+.row2 .form-group .input-group,
+.row2 .form-group .input-group .form-control{
+  vertical-align: top;
+  /* height: 55px; */
+  height: 100%;
+  color: #fff;
+}
+.addon1{padding: 6px 0;}
+.addon2{padding: 6px 0;}
+.addon3{padding: 0px;}
+.addon3 .btn1{
+  padding: 5px 0px;
+  color: #3dd4ff;
+  background: transparent;
+  border-style:none;
+}
+.row2 .form-group .input-group-addon,
+.row2 .form-group .input-group .form-control{
+  border-style: none;
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+}
+.row2 .form-group .input-group-addon .icon1{width: 20px; height: 25px;}
+.row2 .form-group .input-group-addon .shanchu{width: 20px; height: 20px;}
+
+.row3{position: relative; height: 57.3%; }
+.row3 .container{ padding: 0 3.3%; }
+.loginBtn{margin: 76px 9.8% 0; text-align: center;}
+.loginBtn .btn{
+  width: 100%;
+  background:#0178ff;
+  text-align: center;
+  height: 60px;
+  line-height: 60px;
+  padding: 0;
+  color: #fff;
+  font-size: 18px;
+  outline: none;
+  border-style: none;
+}
+.passLink{ margin-top: 20px; }
+.passLink .item{text-align: center;}
+.passLink .item .a1{color:#8e87eb; text-decoration: underline;}
+.checkbox label{height: 30px; line-height: 30px;}
+.img1 {
+  width: 20px;
+  height: 12px;
+  position: relative;
+  right: 0px;
+  top: 0px;
+}
+@media screen and (min-width: 320px) and (max-width: 359px){
+  .row2 .form-group{margin:0px;}
+  .row2 .txt { margin-top: 10px;}
+}
