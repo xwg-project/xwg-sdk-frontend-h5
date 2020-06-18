@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<div class="wrapper">
+      <!-- <div class="header2">
+        <el-input
+          placeholder="请输入内容"
+          v-model="keyword"
+          :handInput="handInput1"
+          clearable
+          class="input1"
+        >
+          <i slot="prefix" class="el-input__icon el-icon-search"></i>
+          <el-button type="primary" slot="append" class="btn1" @click="search1">搜索</el-button>
+        </el-input>
+      </div> -->
+      <div class="content">
+        <el-tabs v-model="activeName" @tab-click="handleClick" type="card" stretch>
+          <el-tab-pane
+            label="热门游戏"
+            name="first"
+            class="paneFirst"
+          >
+           <!--  ++++++++++++++++ 展示区域开始 ++++++++++++++++++ -->
+
+            <!-- <div class="gameContainer">
+              <div class="gamebox"
+                v-for="gameOne in dataShow.slice((currentPage-1)*pageSize,currentPage*pageSize)"
+                :key="gameOne.id"
+              >
+                <div class="wrapItem">
+                  <div class="oLeft">
+                    <img :src="gameOne.imgSrc" alt="">
+                  </div>
+                  <div class="oRight">
+                    <p class="p1">{{gameOne.txt}}</p>
+                    <p class="p2">{{gameOne.description | ellipsis}}</p>
+                    <p class="p3"><a href="####">查看详情>></a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="block">
+              <el-pagination
+                background
+                @size-change="handleSizeChange"
+                @current-change="handleCurrentChange"
+                :current-page="currentPage"
+                :page-size="pageSize"
+                layout="total, prev, pager, next"
+                :total="dataShow.length">
+              </el-pagination>
+            </div> -->
+          <!--  ++++++++++++++++ 展示区域结束 ++++++++++++++++++ -->
+          <!--  ++++++++++++++++ 修改区域开始 ++++++++++++++++++ -->
+          <VmImageList :data="gameOnes" ref="imageList"></VmImageList>
+          <!--  ++++++++++++++++ 修改区域结束 ++++++++++++++++++ -->
+          </el-tab-pane>
+          <el-tab-pane label="角色扮演" name="second" class="paneFirst">
+            <div class="gameContainer">
+              <div class="gamebox" v-for="gameTwo in gameTwos" :key="gameTwo.id">
+                <div class="wrapItem">
+                  <div class="oLeft">
+                    <img :src="gameTwo.imgSrc" alt="">
+                  </div>
+                  <div class="oRight">
+                    <p class="p1">{{gameTwo.txt}}</p>
+                    <p class="p2">{{gameTwo.description}}</p>
+                    <p class="p3"><a href="####">查看详情>></a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </el-tab-pane>
+          <el-tab-pane label="射击游戏" name="third" class="paneFirst">
+            <div class="gameContainer">
+              <div class="gamebox" v-for="gameThree in gameThrees" :key="gameThree.id">
+                <div class="wrapItem">
+                  <div class="oLeft">
+                    <img :src="gameThree.imgSrc" alt="">
+                  </div>
+                  <div class="oRight">
+                    <p class="p1">{{gameThree.txt}}</p>
+                    <p class="p2">{{gameThree.description}}</p>
+                    <p class="p3"><a href="####">查看详情>></a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </el-tab-pane>
+          <el-tab-pane label="动作游戏" name="four" class="paneFirst">
+            <div class="gameContainer">
+              <div class="gamebox" v-for="gameFour in gameFours" :key="gameFour.id">
+                <div class="wrapItem">
+                  <div class="oLeft">
+                    <img :src="gameFour.imgSrc" alt="">
+                  </div>
+                  <div class="oRight">
+                    <p class="p1">{{gameFour.txt}}</p>
+                    <p class="p2">{{gameFour.description}}</p>
+                    <p class="p3"><a href="####">查看详情>></a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </el-tab-pane>
+          <el-tab-pane label="竞技游戏" name="five" class="paneFirst">
+            <div class="gameContainer">
+              <div class="gamebox" v-for="gameFive in gameFives" :key="gameFive.id">
+                <div class="wrapItem">
+                  <div class="oLeft">
+                    <img :src="gameFive.imgSrc" alt="">
+                  </div>
+                  <div class="oRight">
+                    <p class="p1">{{gameFive.txt}}</p>
+                    <p class="p2">{{gameFive.description}}</p>
+                    <p class="p3"><a href="####">查看详情>></a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </el-tab-pane>
+          <el-tab-pane label="休闲游戏" name="six" class="paneFirst">
+            <div class="gameContainer">
+              <div class="gamebox" v-for="gameSix in gameSixs" :key="gameSix.id">
+                <div class="wrapItem">
+                  <div class="oLeft">
+                    <img :src="gameSix.imgSrc" alt="">
+                  </div>
+                  <div class="oRight">
+                    <p class="p1">{{gameSix.txt}}</p>
+                    <p class="p2">{{gameSix.description}}</p>
+                    <p class="p3"><a href="####">查看详情>></a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </el-tab-pane>
+          <el-tab-pane label="手机游戏" name="seven" class="paneFirst">
+            <div class="gameContainer">
+              <div class="gamebox" v-for="gameSeven in gameSevens" :key="gameSeven.id">
+                <div class="wrapItem">
+                  <div class="oLeft">
+                    <img :src="gameSeven.imgSrc" alt="">
+                  </div>
+                  <div class="oRight">
+                    <p class="p1">{{gameSeven.txt}}</p>
+                    <p class="p2">{{gameSeven.description}}</p>
+                    <p class="p3"><a href="####">查看详情>></a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </el-tab-pane>
+        </el-tabs>
+      </div>
+    </div>
+</body>
+</html>

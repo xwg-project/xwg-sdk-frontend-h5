@@ -1,0 +1,771 @@
+{
+  "tablesData": [
+    {
+      "id": "01",
+      "trandingHour": "2016-05-01 19:48:52",
+      "type": "登录"
+    },
+    {
+      "id": "02",
+      "trandingHour": "2016-05-02 19:48:52",
+      "type": "断线"
+    },
+    {
+      "id": "03",
+      "trandingHour": "2016-05-02 19:48:52",
+      "type": "测试"
+    },
+    {
+      "id": "04",
+      "trandingHour": "2016-05-03 08:48:52",
+      "type": "退出"
+    },
+    {
+      "id": "05",
+      "trandingHour": "2016-05-02 19:48:52",
+      "type": "超时"
+    },
+    {
+      "id": "06",
+      "trandingHour": "2016-05-05 16:48:52",
+      "type": "已登录"
+    },
+    {
+      "id": "07",
+      "trandingHour": "2016-05-05 16:48:52",
+      "type": "已登录"
+    },
+    {
+      "id": "08",
+      "trandingHour": "2016-05-06 13:00:52",
+      "type": "未登录"
+    },
+    {
+      "id": "09",
+      "trandingHour": "2016-05-06 13:00:52",
+      "type": "未登录"
+    },
+    {
+      "id": "10",
+      "trandingHour": "2016-05-02 19:48:52",
+      "type": "未登录"
+    },
+    {
+      "id": "11",
+      "trandingHour": "2016-05-02 19:48:52",
+      "type": "未登录"
+    },
+    {
+      "id": "12",
+      "trandingHour": "2016-05-02 19:48:52",
+      "type": "登录"
+    },
+    {
+      "id": "13",
+      "trandingHour": "2016-05-02 19:48:52",
+      "type": "登出"
+    },
+    {
+      "id": "14",
+      "trandingHour": "2016-05-02 19:48:52",
+      "type": "登出"
+    },
+    {
+      "id": "15",
+      "trandingHour": "2016-05-02 19:48:52",
+      "type": "登出"
+    },
+    {
+      "id": "16",
+      "trandingHour": "2016-05-02 19:48:52",
+      "type": "登出"
+    },
+    {
+      "id": "17",
+      "trandingHour": "2016-05-02 19:48:52",
+      "type": "登出"
+    },
+    {
+      "id": "18",
+      "trandingHour": "2016-05-02 19:48:52",
+      "type": "登出"
+    },
+    {
+      "id": "19",
+      "trandingHour": "2016-05-02 19:48:52",
+      "type": "登出"
+    },
+    {
+      "id": "20",
+      "trandingHour": "2016-05-02 19:48:52",
+      "type": "登出"
+    },
+    {
+      "id": "21",
+      "trandingHour": "2016-05-02 19:48:52",
+      "type": "登出"
+    },
+    {
+      "id": "22",
+      "trandingHour": "2016-05-02 19:48:52",
+      "type": "登出"
+    },
+    {
+      "id": "23",
+      "trandingHour": "2016-05-02 19:48:52",
+      "type": "断线"
+    },
+    {
+      "id": "24",
+      "trandingHour": "2016-05-02 19:48:52",
+      "type": "断线"
+    },
+    {
+      "id": "25",
+      "trandingHour": "2017-05-22 10:48:52",
+      "type": "未登录"
+    },
+    {
+      "id": "26",
+      "trandingHour": "2017-05-22 10:48:52",
+      "type": "未登录"
+    },
+    {
+      "id": "27",
+      "trandingHour": "2017-05-22 10:48:52",
+      "type": "未登录"
+    },
+    {
+      "id": "28",
+      "trandingHour": "2017-05-22 10:48:52",
+      "type": "未登录"
+    }
+  ],
+  "tablesData1": [
+    {
+      "OrderNumber": "1234567891101",
+      "type": "买入",
+      "Currency": "ETH",
+      "amount": "10",
+      "unitPrice": "80567329",
+      "TotalPrice": "9921679538",
+      "timelimit": "24H",
+      "time": "2020-05-09 18:00",
+      "operating": "撤单"
+    },
+    {
+      "OrderNumber": "1234567891101",
+      "type": "买入",
+      "Currency": "ETH",
+      "amount": "10",
+      "unitPrice": "80567329",
+      "TotalPrice": "921679538",
+      "timelimit": "24H",
+      "time": "2020-05-09 18:00",
+      "operating": "撤单"
+    },
+    {
+      "OrderNumber": "1234567891101",
+      "type": "买入",
+      "Currency": "ETH",
+      "amount": "10",
+      "unitPrice": "80567329",
+      "TotalPrice": "921679538",
+      "timelimit": "24H",
+      "time": "2020-05-09 18:00",
+      "operating": "撤单"
+    },
+    {
+      "OrderNumber": "1234567891101",
+      "type": "买入",
+      "Currency": "ETH",
+      "amount": "10",
+      "unitPrice": "80567329",
+      "TotalPrice": "921679538",
+      "timelimit": "24H",
+      "time": "2020-05-09 18:00",
+      "operating": "撤单"
+    },
+    {
+      "OrderNumber": "1234567891101",
+      "type": "买入",
+      "Currency": "ETH",
+      "amount": "10",
+      "unitPrice": "80567329",
+      "TotalPrice": "921679538",
+      "timelimit": "24H",
+      "time": "2020-05-09 18:00",
+      "operating": "撤单"
+    },
+    {
+      "OrderNumber": "1234567891101",
+      "type": "买入",
+      "Currency": "ETH",
+      "amount": "10",
+      "unitPrice": "80567329",
+      "TotalPrice": "921679538",
+      "timelimit": "24H",
+      "time": "2020-05-09 18:00",
+      "operating": "撤单"
+    },
+    {
+      "OrderNumber": "1234567891101",
+      "type": "买入",
+      "Currency": "ETH",
+      "amount": "10",
+      "unitPrice": "80567329",
+      "TotalPrice": "921679538",
+      "timelimit": "24H",
+      "time": "2020-05-09 18:00",
+      "operating": "撤单"
+    },
+    {
+      "OrderNumber": "1234567891101",
+      "type": "买入",
+      "Currency": "ETH",
+      "amount": "10",
+      "unitPrice": "80567329",
+      "TotalPrice": "921679538",
+      "timelimit": "24H",
+      "time": "2020-05-09 18:00",
+      "operating": "撤单"
+    },
+    {
+      "OrderNumber": "1234567891101",
+      "type": "买入",
+      "Currency": "ETH",
+      "amount": "10",
+      "unitPrice": "80567329",
+      "TotalPrice": "921679538",
+      "timelimit": "24H",
+      "time": "2020-05-09 18:00",
+      "operating": "撤单"
+    },
+    {
+      "OrderNumber": "1234567891101",
+      "type": "买入",
+      "Currency": "ETH",
+      "amount": "10",
+      "unitPrice": "80567329",
+      "TotalPrice": "921679538",
+      "timelimit": "24H",
+      "time": "2020-05-09 18:00",
+      "operating": "撤单"
+    },
+    {
+      "OrderNumber": "1234567891101",
+      "type": "买入",
+      "Currency": "ETH",
+      "amount": "10",
+      "unitPrice": "80567329",
+      "TotalPrice": "921679538",
+      "timelimit": "24H",
+      "time": "2020-05-09 18:00",
+      "operating": "撤单"
+    },
+    {
+      "OrderNumber": "1234567891101",
+      "type": "买入",
+      "Currency": "ETH",
+      "amount": "10",
+      "unitPrice": "80567329",
+      "TotalPrice": "921679538",
+      "timelimit": "24H",
+      "time": "2020-05-09 18:00",
+      "operating": "撤单"
+    },
+    {
+      "OrderNumber": "1234567891101",
+      "type": "买入",
+      "Currency": "ETH",
+      "amount": "10",
+      "unitPrice": "80567329",
+      "TotalPrice": "9999999",
+      "timelimit": "24H",
+      "time": "2020-05-09 18:00",
+      "operating": "撤单"
+    },
+    {
+      "OrderNumber": "1234567891101",
+      "type": "卖出",
+      "Currency": "WXG",
+      "amount": "10",
+      "unitPrice": "666666",
+      "TotalPrice": "9999999",
+      "timelimit": "24H",
+      "time": "2020-05-09 18:00",
+      "operating": "撤单"
+    },
+    {
+      "OrderNumber": "1234567891101",
+      "type": "卖出",
+      "Currency": "WXG",
+      "amount": "10",
+      "unitPrice": "666666",
+      "TotalPrice": "9999999",
+      "timelimit": "24H",
+      "time": "2020-05-09 18:00",
+      "operating": "撤单"
+    },
+    {
+      "OrderNumber": "1234567891101",
+      "type": "卖出",
+      "Currency": "WXG",
+      "amount": "10",
+      "unitPrice": "666666",
+      "TotalPrice": "9999999",
+      "timelimit": "24H",
+      "time": "2020-05-09 18:00",
+      "operating": "撤单"
+    },
+    {
+      "OrderNumber": "1234567891101",
+      "type": "卖出",
+      "Currency": "WXG",
+      "amount": "10",
+      "unitPrice": "666666",
+      "TotalPrice": "9999999",
+      "timelimit": "24H",
+      "time": "2020-05-09 18:00",
+      "operating": "撤单"
+    },
+    {
+      "OrderNumber": "1234567891101",
+      "type": "卖出",
+      "Currency": "WXG",
+      "amount": "10",
+      "unitPrice": "666666",
+      "TotalPrice": "9999999",
+      "timelimit": "24H",
+      "time": "2020-05-09 18:00",
+      "operating": "撤单"
+    },
+    {
+      "OrderNumber": "1234567891101",
+      "type": "卖出",
+      "Currency": "WXG",
+      "amount": "10",
+      "unitPrice": "666666",
+      "TotalPrice": "9999999",
+      "timelimit": "24H",
+      "time": "2020-05-09 18:00",
+      "operating": "撤单"
+    },
+    {
+      "OrderNumber": "1234567891101",
+      "type": "卖出",
+      "Currency": "WXG",
+      "amount": "10",
+      "unitPrice": "666666",
+      "TotalPrice": "9999999",
+      "timelimit": "24H",
+      "time": "2020-05-09 18:00",
+      "operating": "撤单"
+    },
+    {
+      "OrderNumber": "1234567891101",
+      "type": "卖出",
+      "Currency": "WXG",
+      "amount": "10",
+      "unitPrice": "666666",
+      "TotalPrice": "9999999",
+      "timelimit": "24H",
+      "time": "2020-05-09 18:00",
+      "operating": "撤单"
+    },
+    {
+      "OrderNumber": "1234567891101",
+      "type": "卖出",
+      "Currency": "WXG",
+      "amount": "10",
+      "unitPrice": "666666",
+      "TotalPrice": "9999999",
+      "timelimit": "24H",
+      "time": "2020-05-09 18:00",
+      "operating": "撤单"
+    },
+    {
+      "OrderNumber": "1234567891101",
+      "type": "卖出",
+      "Currency": "WXG",
+      "amount": "10",
+      "unitPrice": "666666",
+      "TotalPrice": "9999999",
+      "timelimit": "24H",
+      "time": "2020-05-09 18:00",
+      "operating": "撤单"
+    },
+    {
+      "OrderNumber": "1234567891101",
+      "type": "卖出",
+      "Currency": "WXG",
+      "amount": "10",
+      "unitPrice": "666666",
+      "TotalPrice": "9999999",
+      "timelimit": "24H",
+      "time": "2020-05-09 18:00",
+      "operating": "撤单"
+    },
+    {
+      "OrderNumber": "1234567891101",
+      "type": "卖出",
+      "Currency": "WXG",
+      "amount": "10",
+      "unitPrice": "666666",
+      "TotalPrice": "9999999",
+      "timelimit": "24H",
+      "time": "2020-05-09 18:00",
+      "operating": "撤单"
+    },
+    {
+      "OrderNumber": "1234567891101",
+      "type": "买入",
+      "Currency": "ETH",
+      "amount": "10",
+      "unitPrice": "666666",
+      "TotalPrice": "9999999",
+      "timelimit": "24H",
+      "time": "2020-05-09 18:00",
+      "operating": "撤单"
+    }
+  ],
+  "table1": [
+    {
+      "imgSRC": "./static/images/color1.png",
+      "Currency": "XWG",
+      "amount": "47,5200.89"
+    },
+    {
+      "imgSRC": "./static/images/color1.png",
+      "Currency": "XWG",
+      "amount": "47,5200.89"
+    },
+    {
+      "imgSRC": "./static/images/color1.png",
+      "Currency": "XWG",
+      "amount": "47,5200.89"
+    },
+    {
+      "imgSRC": "./static/images/color1.png",
+      "Currency": "XWG",
+      "amount": "47,5200.89"
+    },
+    {
+      "imgSRC": "./static/images/color1.png",
+      "Currency": "XWG",
+      "amount": "47,5200.89"
+    },
+    {
+      "imgSRC": "./static/images/color1.png",
+      "Currency": "XWG",
+      "amount": "47,5200.89"
+    },
+    {
+      "imgSRC": "./static/images/color1.png",
+      "Currency": "XWG",
+      "amount": "47,5200.89"
+    },
+    {
+      "imgSRC": "./static/images/color1.png",
+      "Currency": "XWG",
+      "amount": "47,5200.89"
+    },
+    {
+      "imgSRC": "./static/images/color1.png",
+      "Currency": "XWG",
+      "amount": "47,5200.89"
+    },
+    {
+      "imgSRC": "./static/images/color1.png",
+      "Currency": "XWG",
+      "amount": "47,5200.89"
+    },
+    {
+      "imgSRC": "./static/images/color1.png",
+      "Currency": "CNY",
+      "amount": "65,2100.89"
+    },
+    {
+      "imgSRC": "./static/images/color1.png",
+      "Currency": "CNY",
+      "amount": "65,2100.89"
+    },
+    {
+      "imgSRC": "./static/images/color1.png",
+      "Currency": "CNY",
+      "amount": "65,2100.89"
+    },
+    {
+      "imgSRC": "./static/images/color1.png",
+      "Currency": "CNY",
+      "amount": "65,2100.89"
+    },
+    {
+      "imgSRC": "./static/images/color1.png",
+      "Currency": "CNY",
+      "amount": "65,2100.89"
+    },
+    {
+      "imgSRC": "./static/images/color1.png",
+      "Currency": "CNY",
+      "amount": "65,2100.89"
+    },
+    {
+      "imgSRC": "./static/images/color1.png",
+      "Currency": "CNY",
+      "amount": "65,2100.89"
+    },
+    {
+      "imgSRC": "./static/images/color1.png",
+      "Currency": "CNY",
+      "amount": "65,2100.89"
+    },
+    {
+      "imgSRC": "./static/images/color1.png",
+      "Currency": "CNY",
+      "amount": "65,2100.89"
+    },
+    {
+      "imgSRC": "./static/images/color1.png",
+      "Currency": "CNY",
+      "amount": "65,2100.89"
+    },
+    {
+      "imgSRC": "./static/images/color1.png",
+      "Currency": "USD",
+      "amount": "30,0000.00"
+    },
+    {
+      "imgSRC": "./static/images/color1.png",
+      "Currency": "USD",
+      "amount": "30,0000.00"
+    }
+  ],
+  "table2": [
+    {
+      "icon": "./static/images/color2.png",
+      "name": "诸葛亮",
+      "toolNum": "12345678912456",
+      "quality": "神话",
+      "generation": "0代",
+      "Star": "5星",
+      "RefePrice": "47,600.89"
+    },
+    {
+      "icon": "./static/images/color2.png",
+      "name": "诸葛亮",
+      "toolNum": "12345678912456",
+      "quality": "神话",
+      "generation": "0代",
+      "Star": "5星",
+      "RefePrice": "47,600.89"
+    },
+    {
+      "icon": "./static/images/color2.png",
+      "name": "诸葛亮",
+      "toolNum": "12345678912456",
+      "quality": "神话",
+      "generation": "0代",
+      "Star": "5星",
+      "RefePrice": "47,600.89"
+    },
+    {
+      "icon": "./static/images/color2.png",
+      "name": "诸葛亮",
+      "toolNum": "12345678912456",
+      "quality": "神话",
+      "generation": "0代",
+      "Star": "5星",
+      "RefePrice": "47,600.89"
+    },
+    {
+      "icon": "./static/images/color2.png",
+      "name": "诸葛亮",
+      "toolNum": "12345678912456",
+      "quality": "神话",
+      "generation": "0代",
+      "Star": "5星",
+      "RefePrice": "47,600.89"
+    },
+    {
+      "icon": "./static/images/color2.png",
+      "name": "诸葛亮",
+      "toolNum": "12345678912456",
+      "quality": "神话",
+      "generation": "0代",
+      "Star": "5星",
+      "RefePrice": "47,600.89"
+    },
+    {
+      "icon": "./static/images/color2.png",
+      "name": "诸葛亮",
+      "toolNum": "12345678912456",
+      "quality": "神话",
+      "generation": "0代",
+      "Star": "5星",
+      "RefePrice": "47,600.89"
+    },
+    {
+      "icon": "./static/images/color2.png",
+      "name": "诸葛亮",
+      "toolNum": "12345678912456",
+      "quality": "神话",
+      "generation": "0代",
+      "Star": "5星",
+      "RefePrice": "47,600.89"
+    },
+    {
+      "icon": "./static/images/color2.png",
+      "name": "诸葛亮",
+      "toolNum": "12345678912456",
+      "quality": "神话",
+      "generation": "0代",
+      "Star": "5星",
+      "RefePrice": "47,600.89"
+    },
+    {
+      "icon": "./static/images/color2.png",
+      "name": "诸葛亮",
+      "toolNum": "12345678912456",
+      "quality": "神话",
+      "generation": "0代",
+      "Star": "5星",
+      "RefePrice": "47,600.89"
+    },
+    {
+      "icon": "./static/images/color2.png",
+      "name": "司马懿",
+      "toolNum": "2100000",
+      "quality": "传奇",
+      "generation": "1代",
+      "Star": "4星",
+      "RefePrice": "286,900.89"
+    },
+    {
+      "icon": "./static/images/color2.png",
+      "name": "司马懿",
+      "toolNum": "2100000",
+      "quality": "传奇",
+      "generation": "1代",
+      "Star": "4星",
+      "RefePrice": "286,900.89"
+    },
+    {
+      "icon": "./static/images/color2.png",
+      "name": "司马懿",
+      "toolNum": "2100000",
+      "quality": "传奇",
+      "generation": "1代",
+      "Star": "4星",
+      "RefePrice": "286,900.89"
+    },
+    {
+      "icon": "./static/images/color2.png",
+      "name": "司马懿",
+      "toolNum": "2100000",
+      "quality": "传奇",
+      "generation": "1代",
+      "Star": "4星",
+      "RefePrice": "286,900.89"
+    },
+    {
+      "icon": "./static/images/color2.png",
+      "name": "司马懿",
+      "toolNum": "2100000",
+      "quality": "传奇",
+      "generation": "1代",
+      "Star": "4星",
+      "RefePrice": "286,900.89"
+    },
+    {
+      "icon": "./static/images/color2.png",
+      "name": "司马懿",
+      "toolNum": "2100000",
+      "quality": "传奇",
+      "generation": "1代",
+      "Star": "4星",
+      "RefePrice": "286,900.89"
+    },
+    {
+      "icon": "./static/images/color2.png",
+      "name": "司马懿",
+      "toolNum": "2100000",
+      "quality": "传奇",
+      "generation": "1代",
+      "Star": "4星",
+      "RefePrice": "286,900.89"
+    },
+    {
+      "icon": "./static/images/color2.png",
+      "name": "司马懿",
+      "toolNum": "2100000",
+      "quality": "传奇",
+      "generation": "1代",
+      "Star": "4星",
+      "RefePrice": "286,900.89"
+    },
+    {
+      "icon": "./static/images/color2.png",
+      "name": "司马懿",
+      "toolNum": "2100000",
+      "quality": "传奇",
+      "generation": "1代",
+      "Star": "4星",
+      "RefePrice": "286,900.89"
+    },
+    {
+      "icon": "./static/images/color2.png",
+      "name": "司马懿",
+      "toolNum": "2100000",
+      "quality": "传奇",
+      "generation": "1代",
+      "Star": "4星",
+      "RefePrice": "286,900.89"
+    },
+    {
+      "icon": "./static/images/color2.png",
+      "name": "司马懿",
+      "toolNum": "2100000",
+      "quality": "传奇",
+      "generation": "1代",
+      "Star": "4星",
+      "RefePrice": "286,900.89"
+    },
+    {
+      "icon": "./static/images/color2.png",
+      "name": "司马懿",
+      "toolNum": "2100000",
+      "quality": "传奇",
+      "generation": "1代",
+      "Star": "4星",
+      "RefePrice": "286,900.89"
+    },
+    {
+      "icon": "./static/images/color2.png",
+      "name": "司马懿",
+      "toolNum": "2100000",
+      "quality": "传奇",
+      "generation": "1代",
+      "Star": "4星",
+      "RefePrice": "286,900.89"
+    },
+    {
+      "icon": "./static/images/color2.png",
+      "name": "郭嘉",
+      "toolNum": "2100000",
+      "quality": "传奇",
+      "generation": "1代",
+      "Star": "4星",
+      "RefePrice": "286,900.89"
+    },
+    {
+      "icon": "./static/images/color2.png",
+      "name": "郭嘉",
+      "toolNum": "2100000",
+      "quality": "传奇",
+      "generation": "1代",
+      "Star": "4星",
+      "RefePrice": "286,900.89"
+    }
+  ]
+}
